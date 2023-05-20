@@ -1,0 +1,27 @@
+.payment {
+    padding: 141px 0 81px 0;
+    font-size: 16px;
+    @media (max-width: 767.98px){
+        padding: 101px 0 41px 0;
+    }
+
+    &__title {
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+        }
+    }
+
+    &__upperText {
+        h4{
+            margin: 0;
+            font-weight: 700;
+        }
+    }
+
+    &__text {
+        p{
+            margin: 0 0 20px 0;
+        }
+    }
+}

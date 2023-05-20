@@ -1,0 +1,31 @@
+.home{
+  padding: 101px 0 66px 0;
+}
+
+.favoriteProduct{
+  display: flex;
+  row-gap: 15px;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  @media(max-width: 1169px){
+    justify-content: space-around;
+  }
+}
+
+.spinner{
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  border-top: 3px solid #FF842C;
+  animation: spinner 3s 0s infinite linear;
+}
+
+@keyframes spinner {
+  100% {
+      transform: rotate(360deg);
+  }
+}
